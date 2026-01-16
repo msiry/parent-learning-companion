@@ -1,0 +1,13 @@
+{
+  "grades": {
+    "Kindergarten": ["Math", "Reading", "Science"],
+    "1st Grade": ["Math", "Reading", "Science"],
+    "2nd Grade": ["Math", "Reading", "Writing"],
+    "3rd Grade": ["Math", "Reading", "Social Studies"],
+    "4th Grade": ["Math", "ELA", "Science"],
+    "5th Grade": ["Math", "ELA", "Social Studies"],
+    "6th Grade": ["Math", "ELA", "Science", "History"],
+    "7th Grade": ["Pre-Algebra", "Literature", "Biology"],
+    "8th Grade": ["Algebra", "English", "Earth Science"]
+  }
+}
