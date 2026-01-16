@@ -17,15 +17,13 @@ function handleImageUpload(event) {
     output.innerHTML = "<p><strong>Preview:</strong></p>";
     output.appendChild(img);
 
-    // Simulated OCR output — replace with real OCR later
-    const mockExtracted = `
-      <p><strong>Simulated OCR Result:</strong> What is 3/4 + 1/8?</p>
-      <ol>
-        <li>Convert 3/4 to 6/8</li>
-        <li>Add 6/8 + 1/8 = 7/8</li>
-      </ol>
-    `;
-    output.innerHTML += mockExtracted;
+    // OCR starts here 🧠
+    extractTextFromImage(file, (text) => {
+      output.innerHTML += `
+        <h3>🧠 OCR Result:</h3>
+        <pre style="white-space: pre-wrap;">${text}</pre>
+      `;
+    });
   };
 
   reader.readAsDataURL(file);
