@@ -1,2 +1,2 @@
 # parent-learning-companion
-Parent Learning Companiion
+Parent Learning Companion
